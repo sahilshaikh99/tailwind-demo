@@ -16,6 +16,8 @@ export const Header = () => {
                     <ul className="hidden md:flex gap-6 font-bold py-2">
                             <li className='hover:cursor-pointer'>About</li>
                             <li className='hover:cursor-pointer'>Pricing</li>
+                            <li className='hover:cursor-pointer'>Learn</li>
+                            <li className='hover:cursor-pointer'>Customers</li>
                             <li className='hover:cursor-pointer'>Contact</li>
                     </ul>
                     <div className="hidden md:flex gap-4 mt-0">
@@ -37,6 +39,8 @@ export const Header = () => {
                         <ul className="flex flex-col gap-7 font-bold py-2 [&>li]:border-b-1 [&>li]:pb-4 [&>li]:border-slate-300">
                             <li className='hover:cursor-pointer'>About</li>
                             <li className='hover:cursor-pointer'>Pricing</li>
+                            <li className='hover:cursor-pointer'>Learn</li>
+                            <li className='hover:cursor-pointer'>Customers</li>
                             <li className='hover:cursor-pointer'>Contact</li>
                     </ul>
                     <div className="flex justify-between gap-4 mt-10">
